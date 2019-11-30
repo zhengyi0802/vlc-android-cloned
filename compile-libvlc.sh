@@ -288,8 +288,8 @@ avlc_make_toolchain
 ###########################
 
 VLC_BOOTSTRAP_ARGS="\
-    --enable-dvdread \
-    --enable-dvdnav \
+    --disable-dvdread \
+    --disable-dvdnav \
     --disable-dca \
     --disable-goom \
     --disable-chromaprint \
@@ -315,12 +315,12 @@ VLC_BOOTSTRAP_ARGS="\
     --disable-aribb24 \
     --disable-aribb25 \
     --enable-mpg123 \
-    --enable-libdsm \
-    --enable-smb2 \
+    --disable-libdsm \
+    --disable-smb2 \
     --enable-libarchive \
     --disable-libmpeg2 \
     --enable-soxr \
-    --enable-nfs \
+    --disable-nfs \
     --enable-microdns \
     --enable-fluidlite \
     --disable-mad \
@@ -358,8 +358,8 @@ VLC_CONFIGURE_ARGS="\
     --enable-lua \
     --disable-vcd \
     --disable-v4l2 \
-    --enable-dvdread \
-    --enable-dvdnav \
+    --disable-dvdread \
+    --disable-dvdnav \
     --enable-bluray \
     --disable-linsys \
     --disable-decklink \
@@ -399,7 +399,7 @@ VLC_CONFIGURE_ARGS="\
     --disable-schroedinger \
     --disable-vnc \
     --enable-jpeg \
-    --enable-smb2 \
+    --disable-smb2 \
 "
 
 ########################
